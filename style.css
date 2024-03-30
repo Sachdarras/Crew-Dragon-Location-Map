@@ -23,6 +23,5 @@ footer{margin-top: -20px;
     color:antiquewhite;
     background: #e04b00;
     background: radial-gradient(ellipse farthest-side at center center, #e04b00 0%, #332d2b 80%);
-    background: -webkit-radial-gradient(ellipse farthest-side at center center, #e04b00 0%, #332d2b 80%);
-    background: -moz-radial-gradient(ellipse farthest-side at center center, #e04b00 0%, #332d2b 80%);}
+ }
     footer p{padding-top: 10px;}
