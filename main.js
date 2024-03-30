@@ -17,7 +17,7 @@ const crewDragon=[
         }).addTo(map);
     
         L.marker([crewDragon[0].latitude, crewDragon[0].longitude]).addTo(map)
-            .bindPopup('Sacha Darras')
+            .bindPopup(`${crewDragon[0].Nom} ${crewDragon[0].Prenom}`)
             .openPopup();
     }
     
