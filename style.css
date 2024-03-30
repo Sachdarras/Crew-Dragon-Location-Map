@@ -1,2 +1,22 @@
-h1 {color:blue}
-#map { height: 600px; }
+@font-face {
+    font-family: "GOT";
+    src: url("./asset/font/game-of-thrones/Game\ of\ Thrones.ttf");
+  }
+  
+h1, h2, h3, h4, h5, h6{font-family: "GOT";}
+
+
+header{display:flex;
+    justify-content: space-between; 
+    background-image: url("./asset/logo/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.logo{width: 150px;}
+h1{padding-top:30px;}
+
+
+
+
+#map { height: 500px; }
