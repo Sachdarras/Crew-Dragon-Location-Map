@@ -6,19 +6,35 @@ const crewDragon=[
        longitude:"-4.4852118",
        
     
-    }
+    },
+
+    {
+     Nom:"Herpoux",
+     Prenom:"Franck",
+     latitude: "43.656806",
+     longitude: "1.277952",
+    },
+    {Nom:"Gorski",
+    Prenom:"Anthony",
+    latitude: "43.3304705",
+    longitude: "5.4496847",
+    },
+    {
+
+    },
     ]
     
     function initMap() {
-        const map = L.map('map').setView([crewDragon[0].latitude, crewDragon[0].longitude], 5);
+        const map = L.map('map').setView([46.603354, 1.888334], 6);
     
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
     
-        L.marker([crewDragon[0].latitude, crewDragon[0].longitude]).addTo(map)
-            .bindPopup(`${crewDragon[0].Nom} ${crewDragon[0].Prenom}`)
-            .openPopup();
+        crewDragon.forEach(person => {
+            L.marker([(person.latitude), (person.longitude)]).addTo(map)
+                .bindPopup(`${person.Nom} ${person.Prenom}`)
+                .openPopup();
+        });
     }
-    
     initMap();
