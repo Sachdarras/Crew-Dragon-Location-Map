@@ -10,7 +10,7 @@ const crewDragon=[
     ]
     
     function initMap() {
-        const map = L.map('map').setView([crewDragon[0].latitude, crewDragon[0].longitude], 13);
+        const map = L.map('map').setView([crewDragon[0].latitude, crewDragon[0].longitude], 5);
     
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
