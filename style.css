@@ -3,7 +3,8 @@
     src: url("./asset/font/game-of-thrones/Game\ of\ Thrones.ttf");
   }
   
-h1, h2, h3, h4, h5, h6{font-family: "GOT";}
+h1, h2, h3, h4, h5, h6{font-family: "GOT";
+color: antiquewhite;}
 
 
 header{display:flex;
