@@ -19,8 +19,12 @@ const crewDragon=[
     latitude: "43.3304705",
     longitude: "5.4496847",
     },
-    {
-
+    {Nom:"Pasquiou",
+    Prenom:"Vincent",
+    latitude: "48.732084",
+    longitude: "-3.459144",
     },
+
+    
     ];
     export default crewDragon;
