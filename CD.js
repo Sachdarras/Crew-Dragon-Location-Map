@@ -38,6 +38,12 @@ latitude: " 46.160540",
 longitude: "-1.151193",
 
 },
+{
+    Nom:"Bauduin",
+Prenom:"Laurent",
+latitude: "50.437008",
+longitude: "3.432927",
 
+},
  ];
     export default crewDragon;
