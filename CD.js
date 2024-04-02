@@ -52,5 +52,19 @@ latitude: "47.38991722684452",
 longitude: "0.688728222980062",
 
 },
+{
+    Nom:"Chetot",
+Prenom:"Aurélien",
+latitude: "46.8001341",
+longitude: "4.858671",
+
+},
+{
+    Nom:"Etchart",
+Prenom:"Amandine",
+latitude: "44.973966488075774",
+longitude: " -0.1848856298805242",
+
+},
  ];
     export default crewDragon;
