@@ -40,8 +40,8 @@ const crewDragon = [
   {
     Nom: "Bauduin",
     Prenom: "Laurent",
-    latitude: "50.437008",
-    longitude: "3.432927",
+    latitude: "50.4491519",
+    longitude: "3.4281142",
   },
   {
     Nom: "Besch",
@@ -64,8 +64,8 @@ const crewDragon = [
   {
     Nom: "Laquerriere",
     Prenom: "Fabien",
-    latitude: "49.207308",
-    longitude: "1.185249",
+    latitude: "49.2157245",
+    longitude: "1.1646335",
   },
   {
     Nom: "Jebri",
