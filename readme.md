@@ -20,8 +20,8 @@
 
 👤 **Sacha Darras**
 
-- Github: [sachdarras](https://github.com/sachdarras)
-- LinkedIn: [sacha DARRAS](www.linkedin.com/in/sacha-darras)
+- [![GitHub](https://img.shields.io/badge/sachdarras-%23181717.svg?style=plastic&logo=github&logoColor=white)](https://github.com/sachdarras)
+- [![LinkedIn](https://img.shields.io/badge/sacha%20DARRAS-%230077B5.svg?style=plastic&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sacha-darras)
 
 ## Show your support
 
